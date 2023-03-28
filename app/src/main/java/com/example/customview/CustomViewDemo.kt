@@ -121,8 +121,10 @@ class CustomViewDemo(context: Context, attrs: AttributeSet?) : View(context, att
 
     fun drawMouth(canvas: Canvas?){
         mouthPath.moveTo(size*0.22f, size*0.7f)
-        mouthPath.quadTo(size*0.50f,size*0.40f,size*0.78f,size*0.70f)
-        mouthPath.quadTo(size*0.50f,size*0.50f,size*0.22f,size*0.70f)
+//        mouthPath.quadTo(size*0.50f,size*0.80f,size*0.78f,size*0.70f)  //smile
+//        mouthPath.quadTo(size*0.50f,size*0.90f,size*0.22f,size*0.70f) //smile
+        mouthPath.quadTo(size*0.50f,size*0.40f,size*0.78f,size*0.70f) //sad
+        mouthPath.quadTo(size*0.50f,size*0.50f,size*0.22f,size*0.70f) //sad
         paint.color =Color.BLACK
         paint.style=Paint.Style.FILL
         canvas?.drawPath(mouthPath,paint)
