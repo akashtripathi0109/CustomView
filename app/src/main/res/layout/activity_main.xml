@@ -6,13 +6,12 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-    <!--    <com.example.customview.CvDemo2-->
+    <!--    <com.example.customview.CustomViewDemo-->
     <!--        android:id="@+id/emotionalFaceView"-->
     <!--        android:layout_width="197dp"-->
     <!--        android:layout_height="200dp"-->
-
     <!--        android:layout_marginStart="100dp"-->
-    <!--        android:layout_marginTop="250dp"-->
+    <!--        android:layout_marginTop="300dp"-->
     <!--        app:layout_constraintStart_toStartOf="parent"-->
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
@@ -20,9 +19,8 @@
         android:id="@+id/emotionalFaceView"
         android:layout_width="197dp"
         android:layout_height="200dp"
-
         android:layout_marginStart="100dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
