@@ -12,7 +12,7 @@ class ArcDemo1(context: Context?): View(context) {
     var x=100
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        p.color= Color.BLACK
+        p.color= Color.CYAN
         //rectangle
         canvas?.drawRect(100f,100f,500f,500f,p)
 
@@ -40,5 +40,6 @@ class ArcDemo1(context: Context?): View(context) {
     fun stopFan() {
 
     }
+
 
 }
